@@ -1,54 +1,46 @@
-Este proyecto analiza datos históricos de videojuegos para Ice, una tienda online que vende videojuegos a nivel mundial. El objetivo es identificar patrones que determinen el éxito de un videojuego para detectar proyectos prometedores y planificar campañas publicitarias efectivas.
+🎮 Video Game Sales Data Analysis
+📌 Project Objective
+This project analyzes video game sales data to identify market trends, best-selling genres, top platforms, and regional sales distribution.
 
-Contexto del Negocio
-Trabajando con datos hasta 2016, el análisis simula la planificación de una campaña publicitaria para 2017, utilizando información sobre:
+🛠 Tools Used
+Python
+pandas
+numpy
+matplotlib
+Jupyter Notebook
+📊 Dataset
+Video game sales dataset containing information about titles, platforms, genres, publishers, and global/regional sales.
 
-Reseñas de usuarios y expertos
-Géneros de videojuegos
-Plataformas (Xbox, PlayStation, PC, etc.)
-Datos históricos de ventas
-Clasificaciones ESRB
-Objetivos del Análisis
-Identificar patrones de éxito en videojuegos
-Detectar proyectos prometedores para inversión
-Optimizar estrategias publicitarias basadas en datos
-Analizar tendencias por región, plataforma y género
-Metodología
-Preparación de Datos:
-- Limpieza y normalización del dataset
-- Tratamiento de valores ausentes
-- Conversión de tipos de datos
-- Cálculo de ventas totales por juego
+🔎 Data Analysis Process
+Data cleaning and preprocessing
+Handling missing values
+Removing duplicates
+Exploratory Data Analysis (EDA)
+Aggregation of sales by genre, platform, and year
+📈 Key Insights
+(Add here your real conclusions, for example:)
 
-Análisis Exploratorio:
-- Distribución de ventas por región
-- Análisis de plataformas más exitosas
-- Tendencias temporales en la industria
-- Correlación entre puntuaciones y ventas
+Action and Sports genres dominate global sales
+PlayStation platforms show strong market performance
+North America represents the largest sales region
+▶ How to Run
+1. 1. Clone the repository
 
-Pruebas de Hipótesis:
-- Formulación de hipótesis nulas y alternativas
-- Análisis estadístico de diferencias significativas
-- Validación de conclusiones con métodos estadísticos
+git clone https://github.com/SyTGgreed/An-lisis-videojuegos.git
 
-Dataset
-Archivo: games.csv (16,715 registros)
+2. Install dependencies
 
-Columnas principales:
-- Información del juego (nombre, plataforma, año, género)
-- Ventas por región (NA, EU, JP, Other)
-- Puntuaciones (críticos y usuarios)
-- Clasificación ESRB
+pip install -r requirements.txt
 
-Tecnologías Utilizadas
-Python: Lenguaje principal
-Pandas: Manipulación de datos
-NumPy: Cálculos numéricos
-Matplotlib/Seaborn: Visualización de datos
-SciPy: Pruebas estadísticas
-Jupyter Notebook: Entorno de desarrollo
-Resultados Esperados
-Identificación de factores clave del éxito comercial
-Recomendaciones para campañas publicitarias
-Insights sobre preferencias regionales
-Estrategias de lanzamiento por plataforma
+3. Run the project
+
+Option A: Jupyter Notebook
+
+jupyter notebook
+Open "analisis.ipynb" and run all cells.
+
+Option B: Python script
+python src/main.py
+
+
+👨‍💻 Author Kevin Geovany Higuera Rivera Software Engineer focused on Data Analysis
