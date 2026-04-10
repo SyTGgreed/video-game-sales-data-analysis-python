@@ -26,7 +26,7 @@ North America represents the largest sales region
 ▶ How to Run
 1. 1. Clone the repository
 
-git clone https://github.com/SyTGgreed/An-lisis-videojuegos.git
+git clone https://github.com/Kevin-Higuera/video-game-sales-data-analysis-python.git
 
 2. Install dependencies
 
