@@ -23,6 +23,25 @@ Aggregation of sales by genre, platform, and year
 Action and Sports genres dominate global sales
 PlayStation platforms show strong market performance
 North America represents the largest sales region
+
+📊 Power BI Dashboard
+
+🧠 Data Visualization
+
+An interactive dashboard was developed using Power BI to analyze video game sales from multiple perspectives:
+
+Top 10 best-selling video games
+Global sales by platform
+Regional sales comparison
+Total sales KPI
+🔄 Interactivity
+
+The dashboard allows dynamic exploration through interactive filters, enabling users to analyze sales by platform and region.
+
+📌 Note
+
+Sales figures are expressed in millions of units.
+
 ▶ How to Run
 1. 1. Clone the repository
 
